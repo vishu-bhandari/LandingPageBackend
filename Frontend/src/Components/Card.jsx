@@ -13,9 +13,10 @@ export default function Card() {
           {/* First Card */}
           <div className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-6 pb-8 lg:pt-[10rem] pt-[5rem] w-full lg:w-1/3 transition duration-300 hover:scale-105 hover:brightness-90">
             <img
-              src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y29tbXVuaWNhdGlvbnxlbnwwfHwwfHx8MA%3D%3D"
+              src="https://i.postimg.cc/XG5bDLVZ/download.jpg"
               alt="Fear of Being Judged"
               className="absolute inset-0 h-full w-full object-cover"
+              loading="lazy"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black via-gray-900/70"></div>
             <span className="z-10 mt-3 text-3xl md:text-4xl font-bold text-orange-400">
@@ -29,9 +30,10 @@ export default function Card() {
           {/* Second Card */}
           <div className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-6 pb-8 lg:pt-[10rem] pt-[5rem] w-full lg:w-1/3 transition duration-300 hover:scale-105 hover:brightness-90">
             <img
-              src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y29tbXVuaWNhdGlvbnxlbnwwfHwwfHx8MA%3D%3D"
+              src="https://i.postimg.cc/bSjhXnJm/boring.avif"
               alt="Proven Frameworks"
               className="absolute inset-0 h-full w-full object-cover"
+              loading="lazy"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black via-gray-900/70"></div>
             <span className="z-10 mt-3 text-3xl md:text-4xl font-bold text-orange-400">
@@ -47,9 +49,10 @@ export default function Card() {
           {/* Third Card */}
           <div className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-6 pb-8 lg:pt-[10rem] pt-[5rem] w-full lg:w-1/3 transition duration-300 hover:scale-105 hover:brightness-90">
             <img
-              src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y29tbXVuaWNhdGlvbnxlbnwwfHwwfHx8MA%3D%3D"
+              src="https://i.postimg.cc/gwQpDQPF/download-1.jpg"
               alt="Sound Confident"
               className="absolute inset-0 h-full w-full object-cover"
+              loading="lazy"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black via-gray-900/70"></div>
             <span className="z-10 mt-3 text-3xl md:text-4xl font-bold text-orange-400">
@@ -63,9 +66,10 @@ export default function Card() {
           {/* Fourth Card */}
           <div className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-6 pb-8 lg:pt-[10rem] pt-[5rem] w-full lg:w-1/3 transition duration-300 hover:scale-105 hover:brightness-90">
             <img
-              src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y29tbXVuaWNhdGlvbnxlbnwwfHwwfHx8MA%3D%3D"
+              src="https://i.postimg.cc/k2jqVD15/0-featured-image.jpg"
               alt="Evoke Emotions"
               className="absolute inset-0 h-full w-full object-cover"
+              loading="lazy"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black via-gray-900/70"></div>
             <span className="z-10 mt-3 text-3xl md:text-4xl font-bold text-orange-400">
@@ -79,8 +83,8 @@ export default function Card() {
 
         {/* Register Button */}
         <div className="flex items-center justify-center lg:m-10 m-5">
-          <a href="#" target="_blank" rel="noopener noreferrer">
-            <button className="h-12 md:h-14 lg:h-16 px-6 py-2 md:px-8 lg:px-10 rounded-full uppercase bg-orange-500 text-white text-sm md:text-lg lg:text-xl font-semibold leading-5 hover:bg-orange-600 focus:outline-none focus:ring-4 focus:ring-orange-300 transition duration-300 ease-in-out">
+          <a href="https://coachsushantsinghal.com/PaymentPage" target="_blank" rel="noopener noreferrer">
+            <button className=" animate-linkglow h-12 md:h-14 lg:h-16 px-6 py-2 md:px-8 lg:px-10 rounded-full uppercase bg-orange-500 text-white text-sm md:text-lg lg:text-xl font-semibold leading-5 hover:bg-orange-600 focus:outline-none focus:ring-4 focus:ring-orange-300 transition duration-300 ease-in-out">
               Register Now
             </button>
           </a>

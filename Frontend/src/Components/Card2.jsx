@@ -4,18 +4,18 @@ export default function Card2() {
   return (
     <>
       <section className="relative isolate overflow-x-hidden lg:overflow-visible lg:px-0 max-w-8xl m-auto border-gray-100 rounded-xl lg:mt-20 mt-10">
-        <div className="mx-auto grid max-w-8xl grid-cols-1 gap-6 p-6">
-          <div className="flex justify-center items-center gap-10">
+        <div className="mx-auto grid max-w-8xl grid-cols-1 gap-6 md:p-6 p-2">
+          <div className="flex flex-col lg:flex-row justify-center items-center gap-10">
             {/* First Card */}
-            <div className="flex flex-col py-14 px-11 rounded-lg max-w-lg bg-gradient-to-r from-[#0A192F] via-[#0A192F] to-teal-800 shadow-xl w-1/2">
+            <div className="flex flex-col py-14 md:px-11 px-5 rounded-lg max-w-lg bg-gradient-to-r from-[#0A192F] via-[#0A192F] to-teal-800 shadow-xl w-full lg:w-1/2">
               <h3 className="mb-4 text-white text-[22px] sm:text-[40px] font-extrabold leading-none">
-                <span>This LIVE MasterClass will include:</span>
+                <span>This LIVE Masterclass covers :</span>
               </h3>
               <ul className="mt-6 sm:mt-10 flex-grow">
                 <li className="pt-2 pb-4 mb-2 last:mb-0 border-b border-white border-solid">
                   <a
                     className="flex items-center justify-between text-white hover:text-white text-lg sm:text-xl font-medium"
-                    href="#"
+                    href="https://coachsushantsinghal.com/PaymentPage"
                   >
                     <span>2 Hours of LIVE Training</span>
                     <svg
@@ -37,11 +37,9 @@ export default function Card2() {
                 <li className="pt-2 pb-4 mb-2 last:mb-0 border-b border-white border-solid">
                   <a
                     className="flex items-center justify-between text-white hover:text-white text-lg sm:text-xl font-medium"
-                    href="#"
+                    href="https://coachsushantsinghal.com/PaymentPage"
                   >
-                    <span>
-                      Strategies to Master your Non-Verbal Communication
-                    </span>
+                    <span>Practice Speaking Live</span>
                     <svg
                       width="14"
                       height="14"
@@ -61,10 +59,10 @@ export default function Card2() {
                 <li className="pt-2 pb-4 mb-2 last:mb-0 border-b border-white border-solid">
                   <a
                     className="flex items-center justify-between text-white hover:text-white text-lg sm:text-xl font-medium"
-                    href="#"
+                    href="https://coachsushantsinghal.com/PaymentPage"
                   >
                     <span>
-                      Strategies to Organize your thoughts effectively
+                      Receive Real Time Feedback from your Trainer
                     </span>
                     <svg
                       width="14"
@@ -86,19 +84,17 @@ export default function Card2() {
             </div>
 
             {/* Second Card */}
-            <div className="flex flex-col py-14 px-11 rounded-lg max-w-lg bg-gradient-to-r from-[#0A192F] via-[#0A192F] to-orange-800 shadow-xl w-1/2">
+            <div className="flex flex-col py-14 md:px-11 px-5 rounded-lg max-w-lg bg-gradient-to-r from-[#0A192F] via-[#0A192F] to-orange-800 shadow-xl w-full lg:w-1/2">
               <h3 className="mb-4 text-white text-[22px] sm:text-[40px] font-extrabold leading-none">
-                <span>Top 3 Benefits of this MasterClass:</span>
+                <span>This workshop will help you to :</span>
               </h3>
               <ul className="mt-6 sm:mt-10 flex-grow">
                 <li className="pt-2 pb-4 mb-2 last:mb-0 border-b border-white border-solid">
                   <a
                     className="flex items-center justify-between text-white hover:text-white text-lg sm:text-xl font-medium"
-                    href="#"
+                    href="https://coachsushantsinghal.com/PaymentPage"
                   >
-                    <span>
-                      Overcome Stage Fear and Build Charismatic Confidence
-                    </span>
+                    <span>Overcome Stage Fear</span>
                     <svg
                       width="14"
                       height="14"
@@ -118,12 +114,9 @@ export default function Card2() {
                 <li className="pt-2 pb-4 mb-2 last:mb-0 border-b border-white border-solid">
                   <a
                     className="flex items-center justify-between text-white hover:text-white text-lg sm:text-xl font-medium"
-                    href="#"
+                    href="https://coachsushantsinghal.com/PaymentPage"
                   >
-                    <span>
-                      Access to Proven Strategies used by International Speakers
-                      to influence their audience{" "}
-                    </span>
+                    <span>Learn Proven Frameworks to Structure Speech</span>
                     <svg
                       width="14"
                       height="14"
@@ -143,12 +136,9 @@ export default function Card2() {
                 <li className="pt-2 pb-4 mb-2 last:mb-0 border-b border-white border-solid">
                   <a
                     className="flex items-center justify-between text-white hover:text-white text-lg sm:text-xl font-medium"
-                    href="#"
+                    href="https://coachsushantsinghal.com/PaymentPage"
                   >
-                    <span>
-                      Learn how to express yourself with Impact and Influence
-                      People
-                    </span>
+                    <span>Learn to Deliver Impactful Speech</span>
                     <svg
                       width="14"
                       height="14"

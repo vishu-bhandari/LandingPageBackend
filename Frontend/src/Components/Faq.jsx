@@ -10,17 +10,17 @@ export default function Faq() {
     {
       question: "Is this masterclass interactive or only one-sided?",
       answer:
-        "This masterclass is highly interactive! You will not only enjoy engaging activities but also interact with the trainer in different ways:\n1. You can participate in live activities and interact with Coach Sushant Singhal\n2. You can participate in speaking exercises being discussed and get live feedback from coach Sushant\n3. You can also ask your questions throughout the exclusive Q&A session.",
+        "This masterclass is highly interactive! You will not only enjoy engaging activities but also interact with the trainer in different ways:\n1.⁠ ⁠You can participate in live activities and interact with Coach Sushant Singhal\n2. You can participate in speaking exercises being discussed and get live feedback from coach Sushant\n3.⁠ ⁠You can also ask your questions throughout the exclusive Q&A session.",
     },
     {
       question: "Will I get a reminder before the masterclass begins?",
       answer:
-        "Absolutely! You will receive an email around 1 hour before the live training schedule.",
+        "Absolutely! You will receive an email 1 hour before the live training schedule.",
     },
     {
       question: "Whom should I contact if I need any assistance before the Masterclass?",
       answer:
-        "Write to us at sushant.publicspeaker@gmail.com. We will get back to you in less than 48 hours.",
+        'Please write to us at <a href="mailto:sushant.publicspeaker@gmail.com">sushant.publicspeaker@gmail.com</a>. We will get back to you in less than 48 hours.',
     },
     {
       question: "How will I join the online masterclass?",
@@ -30,21 +30,21 @@ export default function Faq() {
     {
       question: "What if I am not able to attend the live masterclass?",
       answer:
-        "You may write to us at sushant.publicspeaker@gmail.com & we can try to accommodate you in the next session (only if seats are available).",
+        'You may write to us at <a href="mailto:sushant.publicspeaker@gmail.com">sushant.publicspeaker@gmail.com</a> & we can try to accommodate you in the next session (only if seats are available).',
     },
     {
       question: "Can I get a refund?",
       answer:
-        "No. We don't provide refunds in any case. If you are not sure about the workshop, do visit our website www.coachsushantsinghal.com, check out the testimonials, read more about the trainer and make an informed decision.",
+        'Refunds are subjective and are evaluated on a case-by-case basis. Please write to us at <a href="mailto:sushant.publicspeaker@gmail.com">sushant.publicspeaker@gmail.com</a> and our team will connect with you and will decide accordingly.',
     },
   ];
 
   return (
     <>
-      <section className="relative isolate overflow-x-hidden lg:overflow-visible lg:px-0 max-w-8xl m-auto border-gray-100 rounded-xl">
+      <section className="relative isolate overflow-x-hidden lg:overflow-visible lg:px-0 max-w-8xl m-auto border-gray-100 md:rounded-xl ">
         <div className="mx-auto grid max-w-8xl grid-cols-1 gap-6 bg-gradient-to-r from-[#0A192F] via-[#0A192F] to-teal-800">
           <div className="relative isolate overflow-hidden bg-custom">
-            <div className="py-24 px-8 max-w-5xl mx-auto flex flex-col md:flex-row gap-12">
+            <div className="py-24 md:px-8 px-4 max-w-5xl mx-auto flex flex-col md:flex-row gap-12">
               <div className="flex flex-col text-left basis-1/2">
                 <p className="inline-block font-semibold text-secondary mb-4">
                   F.A.Q
@@ -89,19 +89,21 @@ export default function Faq() {
                       style={{ transition: "max-height 0.3s ease-in-out 0s" }}
                     >
                       <div className="pb-5 leading-relaxed">
-                        <div className="space-y-2 leading-relaxed whitespace-pre-wrap">
-                          {item.answer}
-                        </div>
+                        <div
+                          className="space-y-2 leading-relaxed whitespace-pre-wrap"
+                          dangerouslySetInnerHTML={{ __html: item.answer }}
+                        />
                       </div>
                     </div>
                   </li>
                 ))}
                 <li>
                   <a
-                    href="#"
+                    href="https://coachsushantsinghal.com/PaymentPage"
                     className="text-orange-500 mt-3 inline-flex font-medium no-underline group  py-2 items-center -tracking-tight"
+                    target="_blank"
                   >
-                   Register Now
+                    Register Now
                     <svg
                       className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-500 ease-in-out"
                       viewBox="0 0 100 50"
