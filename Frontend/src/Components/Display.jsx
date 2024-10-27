@@ -14,9 +14,17 @@ export default function Display() {
                   <div className="px-4 sm:px-6 md:max-w-2xl lg:col-span-6 lg:flex lg:items-center lg:text-left">
                     <div className="space-y-8">
                       <div className="space-y-4">
-                        <span className="animate-linkglow rounded-full uppercase bg-orange-500 px-3 py-1 text-xs sm:text-sm font-semibold leading-5 text-white">
-                          Enroll Now
-                        </span>
+                        <a
+                          href="https://coachsushantsinghal.com/PaymentPage"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          
+                        >
+                          <span className="animate-linkglow rounded-full uppercase bg-orange-500 px-3 py-1 text-xs sm:text-sm font-semibold leading-5 text-white">
+                            Enroll Now
+                          </span>
+                        </a>
+
                         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white">
                           How to Speak with Confidence and Create
                           <span className="block font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600">

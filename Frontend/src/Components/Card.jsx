@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Card() {
   return (
-    <section className="relative isolate overflow-x-hidden lg:overflow-visible lg:px-0 max-w-8xl m-auto border-t border-gray-100 rounded-xl">
+    <section className="relative isolate overflow-x-hidden lg:overflow-visible lg:px-0 max-w-8xl m-auto   rounded-xl">
       {/* Section Heading */}
       <div className="text-center mt-8 md:mt-12 lg:mt-24 px-4">
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary">What You'll Learn</h2>
@@ -13,7 +13,7 @@ export default function Card() {
           {/* First Card */}
           <div className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-6 pb-8 lg:pt-[10rem] pt-[5rem] w-full lg:w-1/3 transition duration-300 hover:scale-105 hover:brightness-90">
             <img
-              src="https://i.postimg.cc/XG5bDLVZ/download.jpg"
+              src="https://media.istockphoto.com/id/1280554857/photo/sweating-nervous-speaker-is-afraid-of-public-speech-microphone-in-front.webp?a=1&b=1&s=612x612&w=0&k=20&c=ZLwNdC_SDAfG6TE6EHD_8A8_bfZL5TKrKijLksvRGys="
               alt="Fear of Being Judged"
               className="absolute inset-0 h-full w-full object-cover"
               loading="lazy"
@@ -30,7 +30,7 @@ export default function Card() {
           {/* Second Card */}
           <div className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-6 pb-8 lg:pt-[10rem] pt-[5rem] w-full lg:w-1/3 transition duration-300 hover:scale-105 hover:brightness-90">
             <img
-              src="https://i.postimg.cc/bSjhXnJm/boring.avif"
+              src="https://plus.unsplash.com/premium_photo-1706005684579-d3e90a51d839?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHB1YmxpYyUyMHNwZWFraW5nfGVufDB8MHwwfHx8MA%3D%3D"
               alt="Proven Frameworks"
               className="absolute inset-0 h-full w-full object-cover"
               loading="lazy"
@@ -49,7 +49,7 @@ export default function Card() {
           {/* Third Card */}
           <div className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-6 pb-8 lg:pt-[10rem] pt-[5rem] w-full lg:w-1/3 transition duration-300 hover:scale-105 hover:brightness-90">
             <img
-              src="https://i.postimg.cc/gwQpDQPF/download-1.jpg"
+              src="https://cdn.pixabay.com/photo/2018/10/23/10/09/video-recording-3767454_1280.jpg"
               alt="Sound Confident"
               className="absolute inset-0 h-full w-full object-cover"
               loading="lazy"
@@ -66,7 +66,7 @@ export default function Card() {
           {/* Fourth Card */}
           <div className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-6 pb-8 lg:pt-[10rem] pt-[5rem] w-full lg:w-1/3 transition duration-300 hover:scale-105 hover:brightness-90">
             <img
-              src="https://i.postimg.cc/k2jqVD15/0-featured-image.jpg"
+              src="https://media.istockphoto.com/id/1783744325/photo/black-businessman-talking-to-large-group-of-entrepreneurs-during-an-education-event-in.webp?a=1&b=1&s=612x612&w=0&k=20&c=QfGCudm6hUySX-2XtOb8nL1XmN3oPYJFm636zQnHCgA="
               alt="Evoke Emotions"
               className="absolute inset-0 h-full w-full object-cover"
               loading="lazy"
