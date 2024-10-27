@@ -6,23 +6,20 @@ export default {
   ],
   theme: {
     extend: {
-      colors:{
-        "primary":"#0A192F",
-        "secondary":"#F97316",
-        "tertiary":"#54D6BB"
-
+      colors: {
+        "primary": "#0A192F",
+        "secondary": "#F97316",
+        "tertiary": "#54D6BB"
       },
       keyframes: {
         glow: {
           '0%, 100%': {
             boxShadow: '0 0 5px rgba(255, 255, 255, 0.8)',
             borderRadius: '50%',
-           
           },
           '50%': {
             boxShadow: '0 0 20px rgba(255, 255, 255, 1)',
-            borderRadius:'50%'
-          
+            borderRadius: '50%'
           },
         },
         linkglow: {
@@ -33,11 +30,16 @@ export default {
           '0%, 100%': { boxShadow: '0 0 50px rgba(0, 255, 255, 0.5)' },
           '50%': { boxShadow: '0 0 60px rgba(0, 255, 255, 1)' },
         },
+        'loop-scroll': {
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(-100%)' },
+        }
       },
       animation: {
         glow: 'glow 1.5s infinite alternate',
         linkglow: 'linkglow 1.5s infinite alternate',
-        tealglow:'tealglow 1.5s infinite alternate',
+        tealglow: 'tealglow 1.5s infinite alternate',
+        'loop-scroll': 'loop-scroll 50s linear infinite',
       },
     },
   },

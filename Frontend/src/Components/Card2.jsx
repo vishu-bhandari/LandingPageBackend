@@ -3,7 +3,7 @@ import React from "react";
 export default function Card2() {
   return (
     <>
-      <section className="relative isolate overflow-x-hidden lg:overflow-visible lg:px-0 max-w-8xl m-auto border-gray-100 rounded-xl lg:mt-20 mt-10">
+      <section className="relative isolate overflow-x-hidden lg:overflow-visible lg:px-0 max-w-8xl m-auto border-gray-100 rounded-xl lg:mt-20 mt-10 ">
         <div className="mx-auto grid max-w-8xl grid-cols-1 gap-6 md:p-6 p-2">
           <div className="flex flex-col lg:flex-row justify-center items-center gap-10">
             {/* First Card */}

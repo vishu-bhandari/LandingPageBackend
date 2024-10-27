@@ -5,7 +5,7 @@ export default function Footer() {
     <>
       <section className="relative isolate overflow-x-hidden lg:overflow-visible lg:px-0 max-w-8xl m-auto border-gray-100 rounded-xl">
         <div className="mx-auto grid max-w-8xl grid-cols-1 gap-6">
-          <footer className="flex flex-col space-y-10 justify-center p-6 lg:p-10 md:mb-0 mb-5">
+          <footer className="flex flex-col space-y-10 justify-center p-6 lg:p-10  md:mb-10 mb-14">
             <nav className="flex justify-center flex-wrap gap-4 lg:gap-6 text-gray-500 font-medium">
               <a
                 className="hover:text-gray-900"

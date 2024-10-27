@@ -44,7 +44,7 @@ export default function About() {
 
                     </li>
                     <li>
-                    Delievered at Colleges, Corporates
+                    Delivered at Platforms like Josh Talks 
 
                     </li>
                    
@@ -56,8 +56,7 @@ export default function About() {
                   <ul className="mt-4 space-y-2 text-gray-300 dark:text-gray-400 list-disc list-inside">
                     <li>MBA in HR.</li>
                     <li>
-                      Internationally Certified NLP Practitioner by American
-                      Board of Neuro Linguistic Programming.
+                    American Board Certified Neuro Linguistic Programming ( NLP)  Practitioner
                     </li>
                   </ul>
 
