@@ -109,7 +109,7 @@ export default function Display() {
                       <div className="w-1/5  m-auto border-t mt-5 mb-5 border-2 border-gray-200"></div>
 
                       {/* Review Section */}
-                      <div className="flex  justify-center flex-col md:flex-row md:space-y-0 md:space-x-4 space-x-0 space-y-0 items-start md:items-center text-white">
+                      <div className="flex  justify-center flex-col md:flex-row md:space-y-0 md:space-x-4 space-x-0 space-y-0 items-center md:items-center text-white">
                         {/* <div className="items-center space-x-2 md:flex hidden">
                           <div className="flex -space-x-1">
                             {["29", "90", "75", "5"].map((id) => (
@@ -143,13 +143,13 @@ export default function Display() {
 
                         {/* <div className="h-4 border-l border-gray-700 hidden md:block md:w-4"></div> */}
 
-                       
+                        
                         <a
                           href="https://coachsushantsinghal.com/PaymentPage"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                          <button className="animate-linkglow w-28 sm:w-36 md:w-48 lg:w-60 h-8 sm:h-10 md:h-12 lg:h-14 rounded-full uppercase bg-orange-500 text-xs sm:text-sm md:text-md lg:text-lg font-semibold text-white">
+                          <button className="  animate-linkglow w-28 sm:w-36 md:w-48 lg:w-60 h-8 sm:h-10 md:h-12 lg:h-14 rounded-full uppercase bg-orange-500 text-xs sm:text-sm md:text-md lg:text-lg font-semibold text-white">
                             Register Now
                           </button>
                         </a>
