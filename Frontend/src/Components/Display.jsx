@@ -149,11 +149,14 @@ export default function Display() {
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                          <button className="  animate-linkglow w-28 sm:w-36 md:w-48 lg:w-60 h-8 sm:h-10 md:h-12 lg:h-14 rounded-full uppercase bg-orange-500 text-xs sm:text-sm md:text-md lg:text-lg font-semibold text-white">
+                          <button className="  animate-linkglow w-48 sm:w-36 md:w-48 lg:w-60 h-12 sm:h-10 md:h-12 lg:h-14 rounded-full uppercase bg-orange-500 text-md sm:text-sm md:text-md lg:text-lg font-semibold text-white">
                             Register Now
                           </button>
+
+
                         </a>
                       </div>
+                          <div className="w-1/5  m-auto border-t mt-5 mb-5 border-2 border-gray-200"></div>
                     </div>
                   </div>
                 </div>

@@ -91,6 +91,10 @@ export default function Footer() {
               <a href="mailto:sushant.publicspeaker@gmail.com">
                 Email: sushant.publicspeaker@gmail.com
               </a>
+              <br />
+              Phone:
+              <a href="tel:9910654407"> 9910654407 </a>,
+              <a href="tel:9266046791"> 9266046791 </a>
             </p>
           </footer>
         </div>
